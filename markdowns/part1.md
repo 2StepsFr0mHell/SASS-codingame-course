@@ -1,3 +1,3 @@
-@[Variables]({"stubs": ["variables.scss", "variables.html", "run.sh"], "command": "/bin/bash /project/target/run.sh"})
-@[Nesting]({"stubs": ["nesting.scss", "nesting.html", "run.sh"], "command": "/bin/bash /project/target/run.sh"})
-@[Mixins]({"stubs": ["mixins.scss", "mixins.html", "run.sh"], "command": "/bin/bash /project/target/run.sh"})
+@[Variables]({"stubs": ["variables.scss", "variables.html", "run.sh"], "command": "/bin/bash /project/target/run.sh variables"})
+@[Nesting]({"stubs": ["nesting.scss", "nesting.html", "run.sh"], "command": "/bin/bash /project/target/run.sh nesting"})
+@[Mixins]({"stubs": ["mixins.scss", "mixins.html", "run.sh"], "command": "/bin/bash /project/target/run.sh mixins"})
