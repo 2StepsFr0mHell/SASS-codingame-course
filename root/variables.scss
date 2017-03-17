@@ -1,0 +1,20 @@
+$myColor: #F66;
+$space: 10px;
+
+.wrap p {
+	padding: $space;
+	margin: $space;
+}
+
+.p-border {
+	border: dotted 3px $myColor;
+}
+
+.p-background {
+	background: rgba($myColor, 0.3);
+	padding-left: $space * 2;
+}
+
+.p-color {
+	color: $myColor;
+}

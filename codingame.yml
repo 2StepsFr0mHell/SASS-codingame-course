@@ -1,6 +1,10 @@
-title : Content name
+title : SASS
 plan:
-  - title: Part 1
+  - title: SASS Basics
     statement: markdowns/part1.md
-  - title: Part 2
-    statement: markdowns/part2.md
+projects:
+  angular2:
+   root: root
+   runner:
+    name: codingame/ruby-bundler-runner
+    version: latest
