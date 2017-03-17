@@ -7,4 +7,4 @@ projects:
    root: root
    runner:
     name: codingame/ruby-bundler-runner
-    version: latest
+    version: 1.1.0-ruby-2.4
