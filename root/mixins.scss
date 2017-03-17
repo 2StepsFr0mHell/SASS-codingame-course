@@ -9,6 +9,8 @@ p {
 	margin: 10px;
 }
 
+// Use the mixin with multiple parameters
+
 .p-1 {
 	@include colorize-paragraph(red);
 }
