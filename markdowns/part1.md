@@ -1,10 +1,10 @@
 # SASS is life
 
-Welcome to this introduction to SASS, where you will learn to love CSS again. SASS (for Synthetically Awesome Stylesheets) is a CSS preprocessor that allows you to do really cool stuff, but for this lesson, we are going to limit ourselves with three main concepts, variables, nestings, and mixins.
+Welcome to this introduction to SASS, where you will learn to love CSS again. [SASS](https://sass-lang.com) (for Synthetically Awesome Stylesheets) is a CSS preprocessor that allows you to do really cool stuff, but for this lesson, we are going to limit ourselves with three main concepts, variables, nestings, and mixins.
 
 ## Variables
 
-CSS does implement variables now, although they aren't supported by all modern browsers. Which means when you want to reuse the same value several times, it's kind of a hassle when your designers comes in and says "hey, here's the new code for that colour, I felt like changing it out of the blue" (blue, hehe).
+CSS does implement variables now, although they aren't supported by [all modern browsers](http://caniuse.com/#search=variables). Which means when you want to reuse the same value several times, it's kind of a hassle when your designers comes in and says "hey, here's the new code for that colour, I felt like changing it out of the blue" (blue, hehe).
 
 Now you can define a variable in SASS with `$name: value;`. `value` can be basically any CSS value, such as pixels, numbers, percentage, colours...
 
@@ -40,3 +40,7 @@ Or use a mixin to set several properties at once when you intend to reuse code s
 Try it out!
 
 @[Mixins]({"stubs": ["mixins.scss", "mixins.html"], "command": "/bin/bash /project/target/run.sh mixins"})
+
+That's it! you can learn more about SASS on [the official SASS website](https://sass-lang.com/)
+
+Sources for this CodinGame project (including SASS sources) are [here on GitHub](https://github.com/LeonardA-L/SASS-codingame-course)
