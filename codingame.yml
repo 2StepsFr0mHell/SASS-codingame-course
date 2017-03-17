@@ -3,7 +3,7 @@ plan:
   - title: SASS Basics
     statement: markdowns/part1.md
 projects:
-  angular2:
+  sass:
    root: root
    runner:
     name: codingame/ruby-bundler-runner
