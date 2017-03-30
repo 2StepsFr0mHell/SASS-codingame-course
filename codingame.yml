@@ -5,6 +5,7 @@ plan:
 projects:
   sass:
    root: root
+   buildCommand: "cd /project/target && chmod +x prebuild.sh && ./prebuild.sh"
    runner:
     name: ruby
     version: latest
